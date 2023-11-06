@@ -251,7 +251,7 @@
                 const plane = new THREE.Mesh(planeGeometry, planeMaterial);
                 plane.position.set( x, 0, z);
                 plane.rotation.set(0.0, angle ,0.0);
-                plane.userData = { URL: '/photos/' + 0 };
+                plane.userData = { URL: './photos/' + 0 };
                 this.group.add(plane);
                 this.planeArray.push(plane);
             }
